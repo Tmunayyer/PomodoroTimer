@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+}
+/*===============
+====NAVBAR=====
+===============*/
+.navbar {
+	width: 100%;
+	border-bottom: solid black 1px;
+}
+li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.nav:hover {
+	cursor: pointer;
+	color: grey;
+}
+
+#clock {
+	float: right;
+	padding-right: 40px;
+}
+
+
+/*==============
+===HOMEPAGE===
+==============*/
+.homepage {
+	width: 400px;
+	margin: auto;
+	margin-top: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.homepage .container {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.aboutpage {
+	margin: auto;
+	margin-top: 40px;
+	text-align: center;
+	width: 500px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.aboutpage .container {
+	padding: 15px 20px 15px 20px;
+}
+
+
+.info {
+	display: inline-flex;
+}
+
+.info p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.indicators p {
+	display: inline-block;
+	padding: 10px 15px 10px 15px;
+	font-size: 30px;
+}
+
+#timer {
+	font-size: 50px;
+	margin-bottom: 45px;
+	margin-top: 20px;
+}
+
+
+
+/*================
+====BUTTONS=====
+================*/
+
+button {
+	margin-left: 10px;
+	margin-right: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:hover {
+	cursor: pointer;
+}
+
+#start {
+	background-color: #4CAF50;
+}
+#start:hover {
+	background-color: white;
+	color: black;
+	border: solid #4CAF50 2px;
+}
+#stop {
+	background-color: #f44336;
+}
+#stop:hover {
+	background-color: white;
+	color: black;
+	border: solid #f44336 2px;
+}
+
+/*=============
+==ABOUT=====
+============*/
+.aboutpage {
+	text-align: center;
+}
+
+
+
+
